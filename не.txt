@@ -1,0 +1,44 @@
+//styleName: Header/Baron Neue_regular_36;
+font-family: Baron Neue;
+font-size: 36px;
+line-height: 44px;
+letter-spacing: 0px;
+text-align: left;
+
+//styleName: Header/Baron Neue_regular_36;
+font-family: Baron Neue;
+font-size: 36px;
+font-weight: 400;
+line-height: 44px;
+letter-spacing: 0px;
+text-align: left;
+
+//styleName: Header/Baron Neue_regular_36;
+font-family: Baron Neue;
+font-size: 36px;
+line-height: 44px;
+letter-spacing: 0px;
+text-align: left;
+
+.map_header{
+    width: 282.3px;
+    height: 26px;
+    margin-top: 80px;
+    margin-left: 120px;
+    text-transform: uppercase;
+    font-family: 'REM', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: Gray 1;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+<a href="https://yandex.ru/maps/195/ulyanovsk/category/hotel/184106414/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Гостиница в Ульяновске</a><iframe src="https://yandex.ru/map-widget/v1/?ll=48.398113%2C54.307453&mode=poi&poi%5Bpoint%5D=48.402382%2C54.310880&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D1078033192&z=15" frameborder="1" allowfullscreen="true" style="position:relative; width:930px; height:450px;"></iframe></div>
+
+
+<div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/oktyabrskaya/1078033192/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Октябрьская</a><a href="https://yandex.ru/maps/195/ulyanovsk/category/hotel/184106414/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Гостиница в Ульяновске</a><iframe src="https://yandex.ru/map-widget/v1/?ll=48.398113%2C54.307453&mode=poi&poi%5Bpoint%5D=48.402382%2C54.310880&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D1078033192&z=15" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+
+border: 1px solid rgba(199, 151, 145, 1)
+border: 1px solid rgba(199, 151, 145, 1)
