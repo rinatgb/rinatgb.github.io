@@ -3,13 +3,13 @@ const buttonLeft = document.getElementById('left');
 
     buttonRight.onclick = function () {
       document.getElementById('list').scrollBy({
-        left: +300,
+        left: +400,
         behavior: 'smooth'
       }) 
     };
     buttonLeft.onclick = function () {
       document.getElementById('list').scrollBy({
-        left: -300,
+        left: -400,
         behavior: 'smooth'
       }) 
-    };S
+    };
