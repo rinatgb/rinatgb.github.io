@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
+  <title>Тестовое задание</title>
+ </head>
+ <body>
+    <div class="container">
+        <div class="description">
+          <div class="header description"> 
+                Knightsbridge private park – элитный район Лондона в центре Москвы 
+          </div>
+          <div class="description_background">
+                    <dl class = "description_list">
+                      <li><dt class="description_list_item">156 - 636 <span class="description_list_item_unit">м2</span></dt>
+                          <dd class="description_list_subitem">Площадь квартир</dd></li>
+                      <li><dt class="description_list_item">475</dt>
+                          <dd class="description_list_subitem">Парковочных мест</dd></li>
+                      <li><dt class="description_list_item">10 <span class="description_list_item_unit">мин</span></dt>
+                          <dd class="description_list_subitem">До метро Фрунзенская</dd></li>
+                      <li><dt class="description_list_item">2 <span class="description_list_item_unit">га</span></dt>
+                          <dd class="description_list_subitem">Площадь собственного парка</dd></li>
+                    </dl>
+                    <div class="description_background_text">
+                      Жилой комплекс из четырех клубных домов класса де-люкс в английском стиле, 
+                      расположенный в собственном парке площадью 3 га в районе Хамовники. Авторы интерьеров жилого
+                      копмлекса,и дизайна частного парка – дизайнеры мировой величины. Так, общественные зоны оформляет 
+                      Дэвид Линли, племянник королевы Великобритании и глава компании LINLEY, а настоящий английский парк 
+                      для жителей
+                    </div>
+                    <span class="description_details">узнать подробнее</span>
+          </div>
+          <img class="description_pic1" src="resources/Zaglushka.jpg">
+          <img class="description_pic2" src="resources/Presentation.svg">
+          <img class="description_pic3" src="resources/Plan.svg">
+        </div>
+        <div class="map">
+          <div class="header map">на карте</div>
+          <div class = "map_tabs">
+            <button class="map_tabs_item" id="health">Красота и здоровье <span class="map_tabs_item_count">4</span></button>
+            <button class="map_tabs_item" id="shops">Магазины <span class="map_tabs_item_count">3</span></button>
+            <button class="map_tabs_item" id="education">Обучение <span class="map_tabs_item_count">1</span></button>
+            <button class="map_tabs_item" id="kindergarten">Детсад <span class="map_tabs_item_count">3</span></button>
+            <button class="map_tabs_item" id="entertainment">Отдых, развлечения <span class="map_tabs_item_count">3</span></button>
+          </div>
+          <div class="map_location" id="map"></div>
+        </div>
+        <div class="features">
+          <img class="features_slider_left" id="right" src="resources/right.png">
+          <img class="features_slider_right" id="left" src="resources/left.png">
+          <div class="header">особенности работы</div>
+          <div class="features_subheader">компании Saffari Estate</div>
+          <div class="features_list" id="list">
+            <div class="features_list_card">
+              <img src="resources/Card1.svg">
+              <div class="features_subheader card">Большая база</div>
+              <div class="features_list_card_text">
+                У нас самая большая база актуальных и эксклюзивных объектов элитной недвижимости
+              </div>
+              <span class="features_list_card_link">Посмотреть</span>
+            </div>
+            <div class="features_list_card">
+              <img src="resources/Card2.svg">
+              <div class="features_subheader card">надежность</div>
+              <div class="features_list_card_text">
+                Мы гарантируем абсолютую безопасность и конфиденциальность по сделкам
+              </div>
+              <span class="features_list_card_link">Узнать</span>
+            </div>
+            <div class="features_list_card">
+              <img src="resources/Card3.svg">
+              <div class="features_subheader card">опыт</div>
+              <div class="features_list_card_text">
+                Наша команда имеет огромный опыт продаж недвижимости в элитном сегменте
+              </div>
+              <span class="features_list_card_link">Изучить</span>
+            </div>
+            <div class="features_list_card">
+              <img src="resources/Card4.svg">
+              <div class="features_subheader card">Закрытые предложения</div>
+              <div class="features_list_card_text">
+                Есть объекты, которые предлагаем только мы
+              </div>
+              <span class="features_list_card_link">Получить</span>
+            </div>
+          </div>
+        </div>
+    </div>
+ </body>
+<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+<script src="js/scroll.js"></script>
+<script src="js/map.js"></script>
+</html>
